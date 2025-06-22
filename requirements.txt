@@ -1,0 +1,26 @@
+# Core dependencies - минимальный набор для работы
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+alembic==1.12.1
+aiogram==3.2.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+aiosqlite==0.19.0  # ← ДОБАВЬТЕ ЭТУ СТРОКУ
+
+# Utilities - утилиты
+python-multipart==0.0.6
+python-dotenv==1.0.0
+aiofiles==23.2.1
+
+# Data processing - обработка данных
+pandas==2.1.4
+openpyxl==3.1.2
+
+# Development - для разработки
+httpx==0.25.2
+
+# Optional for production (закомментированы для экономии)
+# psycopg2-binary==2.9.9  # PostgreSQL драйвер
+# redis==5.0.1            # Redis для состояний
+# sentry-sdk==1.39.1      # Мониторинг ошибок
